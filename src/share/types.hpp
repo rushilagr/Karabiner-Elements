@@ -103,6 +103,17 @@ enum class key_code : uint32_t {
   keypad_equal_sign = kHIDUsage_KeypadEqualSign,
   keypad_comma = kHIDUsage_KeypadComma,
 
+  i = kHIDUsage_KeyboardI,
+  k = kHIDUsage_KeyboardK,
+  j = kHIDUsage_KeyboardJ,
+  l = kHIDUsage_KeyboardL,
+  o = kHIDUsage_KeyboardO,
+  p = kHIDUsage_KeyboardP,
+  m = kHIDUsage_KeyboardM,
+  comma = kHIDUsage_KeyboardComma,
+  dot = kHIDUsage_KeyboardPeriod,
+  semicolon = kHIDUsage_KeyboardSemicolon,
+
   home = kHIDUsage_KeyboardHome,
   page_up = kHIDUsage_KeyboardPageUp,
   delete_forward = kHIDUsage_KeyboardDeleteForward,

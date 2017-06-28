@@ -164,9 +164,7 @@ public:
         case krbn::key_code::return_or_enter:
           key_code = krbn::key_code::keypad_enter;
           break;
-        case krbn::key_code::delete_or_backspace:
-          key_code = krbn::key_code::delete_forward;
-          break;
+       
         case krbn::key_code::right_arrow:
           key_code = krbn::key_code::end;
           break;
@@ -179,6 +177,36 @@ public:
         case krbn::key_code::up_arrow:
           key_code = krbn::key_code::page_up;
           break;
+
+        case krbn::key_code::j:
+          key_code = krbn::key_code::left_arrow;
+          break;
+        case krbn::key_code::k:
+          key_code = krbn::key_code::down_arrow;
+          break;
+        case krbn::key_code::i:
+          key_code = krbn::key_code::up_arrow;
+          break;
+        case krbn::key_code::l:
+          key_code = krbn::key_code::right_arrow;
+          break;
+
+        // case krbn::key_code::semicolon:
+        //   key_code = krbn::key_code::keypad_enter;
+        //   break;          
+        // case krbn::key_code::o:
+        //   key_code = krbn::key_code::delete_or_backspace;
+        //   break;
+        // case krbn::key_code::m:
+        //   key_code = krbn::key_code::keypad_hyphen;
+        //   break;
+        // case krbn::key_code::comma:
+        //   key_code = krbn::key_code::keypad_equal_sign;
+        //   break;
+        // case krbn::key_code::dot:
+        //   key_code = krbn::key_code::keypad_equal_sign;
+        //   break;
+
         default:
           break;
         }
